@@ -1,0 +1,67 @@
+{
+	"scope":"text.html",
+	
+	"completions":
+	[
+      { "trigger": "vue-cdn-dev\tVue CDN", "contents": "<script src=\"https://cdn.jsdelivr.net/npm/vue/dist/vue.js\"></script>" },
+      { "trigger": "vue-cdn\tVue CDN", "contents": "<script src=\"https://cdn.jsdelivr.net/npm/vue\"></script>" },
+      { "trigger": "axios-cdn\tAxios CDN", "contents": "<script src=\"https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js\"></script>" },
+      
+      
+      { "trigger": "emit\tVue implement", "contents": "$emit=\"$1\"" },
+      { "trigger": "preventDefault\tVue implement", "contents": ".preventDefault()" },
+      
+      { "trigger": "slot\tVue slot implement", "contents": "<slot>$1</slot>" },
+      { "trigger": "v-slot\tVue slot implement", "contents": "v-slot:$1" },
+      
+      { "trigger": "v-if\tVue implement", "contents": "v-if=\"$1\"" },
+      { "trigger": "v-else\tVue implement", "contents": "v-else=\"$1\"" },
+      { "trigger": "v-else-if\tVue implement", "contents": "v-else-if=\"$1\"" },
+      
+      { "trigger": "v-for\tVue implement", "contents": "v-for=\"$1\"" },
+      { "trigger": "v-show\tVue implement", "contents": "v-show=\"$1\"" },
+      { "trigger": "v-model\tVue implement", "contents": "v-model=\"$1\"" },
+      
+      { "trigger": "v-model-lazy\tVue implement", "contents": "v-model.lazy=\"$1\"" },
+      { "trigger": "v-model-number\tVue implement", "contents": "v-model.number=\"$1\"" },
+      { "trigger": "v-model-trim\tVue implement", "contents": "v-model.trim=\"$1\"" },
+      
+      { "trigger": "v-bind\tVue bind", "contents": "v-bind:$1=\"$2\"" },
+      // { "trigger": ":[\tVue bind", "contents": ":[$1]=\"$2\"" },
+      { "trigger": "v-on\tVue event", "contents": "v-on:$1=\"$2\"" },
+      // { "trigger": "@[\tVue event", "contents": "@[$1]=\"$2\"" },
+
+      { "trigger": "key\tVue bind implement", "contents": "key" },
+      { "trigger": "href\tVue bind implement", "contents": "href" },
+      { "trigger": "style\tVue bind implement", "contents": "style" },
+      { "trigger": "class\tVue bind implement", "contents": "class" },
+      
+      { "trigger": "sync\tVue bind implement", "contents": "v-bind.sync=\"$1\"" },
+      
+      { "trigger": "click\tVue event implement", "contents": "click" },
+      { "trigger": "submit\tVue event implement", "contents": "submit" },
+      
+      { "trigger": "stop\tVue event implement", "contents": ".stop" },
+      { "trigger": "prevent\tVue event implement", "contents": ".prevent" },
+      { "trigger": "capture\tVue event implement", "contents": ".capture" },
+      { "trigger": "self\tVue event implement", "contents": ".self" },
+      { "trigger": "once\tVue event implement", "contents": ".once" },
+      { "trigger": "passive\tVue event implement", "contents": ".passive" },
+      
+      { "trigger": "ctrl\tVue key-event implement", "contents": "ctrl" },
+      { "trigger": "alt\tVue key-event implement", "contents": "alt" },
+      { "trigger": "shift\tVue key-event implement", "contents": "shift" },
+      { "trigger": "meta\tVue key-event implement", "contents": "meta" },
+      { "trigger": "key-enter\tVue key-event implement", "contents": "keyup.enter" },
+      { "trigger": "key-tab\tVue key-event implement", "contents": "keyup.tab" },
+      { "trigger": "key-delete\tVue key-event implement", "contents": "keyup.delete" },
+      { "trigger": "key-esc\tVue key-event implement", "contents": "keyup.esc" },
+      { "trigger": "key-space\tVue key-event implement", "contents": "keyup.space" },
+      { "trigger": "key-up\tVue key-event implement", "contents": "keyup.up" },
+      { "trigger": "key-down\tVue key-event implement", "contents": "keyup.down" },
+      { "trigger": "key-left\tVue key-event implement", "contents": "keyup.left" },
+      { "trigger": "key-right\tVue key-event implement", "contents": "keyup.right" },
+
+
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"scope":"source.js,text.html",
+
+	"completions":
+	[
+      { "trigger": "vue\tVue instance", "contents": "var app = new Vue({\nel: '#app',\n})" },
+      { "trigger": "component\tVue instance", "contents": "Vue.component('$1',{\nprops: [],\ntemplate:'',\n})" },
+      { "trigger": "extend\tVue instance", "contents": "Vue.extend({\nmixins: [$1],\n})" },
+      
+      { "trigger": "data\tVue implement", "contents": "data: {$1}," },
+      { "trigger": "methods\tVue implement", "contents": "methods: {$1}," },
+      { "trigger": "created\tVue implement", "contents": "created: fuction() {$1}," },
+      { "trigger": "computed\tVue implement", "contents": "computed: {$1}," },
+      { "trigger": "watch\tVue implement", "contents": "watch: {$1}," },
+      { "trigger": "fuction\tVue implement", "contents": "$1: fuction ($2) {$3}," },
+      
+
+      { "trigger": "emit\tVue component implement", "contents": "$emit($1)" },
+
+      { "trigger": "axios\tAxios instance", "contents": "axios.$1('$2',{$3})\n.then(fuction(response) {}\n.catch(fuction(error) {})" },
+
+	]
+}
